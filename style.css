@@ -238,7 +238,7 @@ nav a:hover{
 .pBox2{
     background: linear-gradient(to right, #f0e68c,#8c96f0);
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     overflow: hidden;
     margin-right: 3000px;
     max-width: 100%;
@@ -280,7 +280,7 @@ nav a:hover{
 .pBox3{
     background: linear-gradient(to left, #b4b6c8,#8c96f0);
     display: flex;
-    justify-content:center;
+    justify-content:flex-end;
 }
 
 
@@ -339,11 +339,3 @@ a > img:hover{
     transform: scale(1.5);
 }
 
-
-
-
-@media screen and (max-width: 700px) {
-.pBox3{
-    margin-right: 0px;
-}
-}

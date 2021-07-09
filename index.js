@@ -41,8 +41,8 @@ $("#SP"+ i).on("click", function(){
 
 //Project Effect
 $(".pContainer2").slideUp();
-$(".pContainer1").slideUp();
-$(".pContainer1").slideDown();
+
+if (typeof window.orientation === 'undefined'){
 
 if( $(document).scrollTop().valueOf() < 3000){
 $(window).scroll( function() { 
@@ -61,6 +61,7 @@ scroller = (scroll) =>{
     }
     
 }
+}
 
 $("#PB1").on("mouseover", function(){
     $(".pContainer2").slideDown(2000);
@@ -77,3 +78,11 @@ $(".pContainer3").hide();
 $("#PB2").on("mouseover", function(){
     $(".pContainer3").fadeIn(5000);
 })       
+
+if (typeof window.orientation !== 'undefined') {
+    $("#PB1").css("margin-left", "0px"); 
+    $("#PB2").css("margin-right", "0px"); 
+    $(".pContainer2").slideDown(2000);
+    
+    newscroll=null
+}
