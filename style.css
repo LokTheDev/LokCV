@@ -1,0 +1,349 @@
+*{
+font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+h3{
+    color: white;
+}
+
+/*NAV BAR*/
+header{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 30px 70px;
+    background-color:black;
+    height: 50px;       
+}
+
+#logo{
+    height: 50px;
+    width: 50px;      
+   
+}
+
+li{
+    list-style: none;
+    display: inline;
+    padding:0 15px;
+    text-transform: uppercase;
+}
+
+nav a{
+    text-decoration: none;
+    color: #fff;
+}
+nav a:hover{
+    color: #006c87;
+}
+
+.btn-area{
+    cursor:pointer;
+    color:#fff;
+    font-size: 10px;
+    text-transform: uppercase;
+    padding: 5px 15px;
+    border-radius: 5px;
+    background-color:darkgrey;
+    text-decoration: none;
+    
+}
+
+/*Cover Page*/
+.main{
+    padding-top: 100px;
+    background-color: black;
+    width: 100%;
+    margin-bottom: 200px;
+    border-bottom: 10px solid black;
+    padding-bottom: 200px;
+    text-align:center;
+    min-width: 100%;
+    min-height: 900px;
+    
+}
+
+.IDcard{
+    position: relative;
+    text-align: center;
+   background-color: white;
+   display: inline-block;
+   border-radius: 50%;
+}
+
+#myIcon{
+    height: 200px;
+    width: 200px;      
+    border-radius: 50%;
+    text-align: center;    
+}
+#myIcon:hover{
+    height: 225px;
+    width: 225px;      
+       
+}
+
+
+#iconText{
+    color:lightgray;
+    margin-top: 10px;
+}
+
+.maintext{
+    padding-top:50px;
+    background: linear-gradient(to left,indigo, green, yellow, orange, red);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 60px;
+    line-height: 60px;
+    text-align: center;
+}
+
+.mainH2{
+    text-align: center;
+    color: white;
+
+}
+
+.mainP{
+    text-align: center;
+    color: white;
+
+}
+
+.TBC{
+    border: none;    
+}
+
+.TBC:hover{
+    transform: scale(1.5);
+}
+
+/*My Skill*/
+.aboutMe{
+    background-color:white;
+}
+
+.skillTitle{
+    display: block;
+    text-align: center;
+    padding-bottom: 100px;
+    background: linear-gradient(to right, #ef5350, #f48fb1, #7e57c2, #2196f3, #26c6da, #43a047, #eeff41, #f9a825, #ff5722);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.skillContainer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.skillBox{
+    margin: auto;
+    height: 300px;
+    width: 300px;
+}
+
+.skillText{
+    height: 300px;
+    width: 300px;
+    text-align: center;
+}
+.boxImg{
+    border-radius: 50%;
+    height: 250px;
+    width: 250px;
+}
+
+
+
+.skillContainer2{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 200px;
+}
+
+
+
+/*Project Show*/
+.pTitle{
+    background: linear-gradient(to right, #c8c6b4,#f0e68c);
+    text-align: center;
+    padding-top: 80px;
+    height: 150px;
+    
+}
+
+.pText{
+    color:white;  
+    
+}
+
+
+
+/*projectbox section*/
+.pBox{
+    background: linear-gradient(to right, #c8c6b4, #f0e68c);
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+    margin-left: 2200px;
+}
+
+
+.pImgBox1{
+    display: inline-block;
+}
+
+
+
+.pTextBox1{
+    display: inline-block;
+   
+
+}
+
+.pTextBox1 > h1{
+    color: black;
+}
+
+.pTextBox1 > p{
+    color: black;
+}
+
+.pSkillBox1{
+    display: inline-block;
+    
+}
+
+.pSkillBox1 > img{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+
+
+/*sepLine*/
+.sepLine{
+    border: 1px solid white;
+}
+
+/*projectbox2 section*/
+.pBox2{
+    background: linear-gradient(to right, #f0e68c,#8c96f0);
+    display: flex;
+    justify-content: space-around;
+    overflow: hidden;
+}
+
+
+.pImgBox2{
+    display: inline-block;
+   
+}
+
+
+
+.pTextBox2{
+    display: inline-block;
+   
+}
+
+.pTextBox2 > h1{
+    color: white;
+}
+
+.pTextBox2 > p{
+    color: white;
+}
+
+.pSkillBox2{
+    display: inline-block;
+   
+}
+
+.pSkillBox2 > img{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+
+/*projectbox3 section*/
+.pBox3{
+    background: linear-gradient(to left, #b4b6c8,#8c96f0);
+    display: flex;
+    justify-content:flex-end;
+    overflow: hidden;
+    margin-right: 3000px;
+    max-width: 100%;
+}
+
+
+.pImgBox3{
+    display: inline-block;
+    
+}
+
+
+
+.pTextBox3{
+    display: inline-block;
+     
+
+}
+
+.pTextBox3 > h1{
+    color: black;
+}
+
+.pTextBox3 > p{
+    color: black;
+}
+
+.pSkillBox3{
+    display: inline-block;
+}
+
+.pSkillBox3 > img{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+
+
+/* Footer */
+footer{
+    background-color: #b4b6c8;
+    padding: 50px 50px;
+}
+
+#contactMe{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+}
+
+a > img{
+    width: 1cm;
+    height: 1cm;
+    margin: auto;
+}
+
+a > img:hover{
+    transform: scale(1.5);
+}
+
+
+
+
+@media screen and (max-width: 700px) {
+.pBox3{
+    margin-right: 0px;
+}
+}
