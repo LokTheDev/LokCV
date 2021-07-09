@@ -48,7 +48,7 @@ $(window).scroll( function() {
     
     if(NEWscrolled_val >= 1550){
         scroller(NEWscrolled_val);
-        scroller2(NEWscrolled_val);
+        
         scroller3(NEWscrolled_val);
     }})
 scroller = (scroll) =>{
@@ -57,10 +57,11 @@ scroller = (scroll) =>{
     $("#PB1").css("margin-left", newscroll+"px");       
 }
 
-scroller2 = (scroll) =>{
-    newscroll= -scroll+3500;    
+$("#PB1").on("mouseover", function(){
     $(".pContainer2").slideDown(2000);
-}
+})    
+   
+
 
 scroller3 = (scroll) =>{
     newscroll= -scroll+3000;    
