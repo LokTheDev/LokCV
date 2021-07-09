@@ -83,6 +83,6 @@ if (typeof window.orientation !== 'undefined') {
     $("#PB1").css("margin-left", "0px"); 
     $("#PB2").css("margin-right", "0px"); 
     $(".pContainer2").slideDown(2000);
-    
+    $(".pContainer3").fadeIn(5000);
     newscroll=null
 }
