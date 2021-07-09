@@ -85,4 +85,5 @@ if (typeof window.orientation !== 'undefined') {
     $(".pContainer2").slideDown(2000);
     $(".pContainer3").fadeIn(5000);
     newscroll=null
+    alert("using tablet or PC to enjoy full experience!")
 }
