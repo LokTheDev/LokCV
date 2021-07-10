@@ -36,7 +36,7 @@ $(window).scroll( function() {
 for(let i = 1; i < 10;i++){
 
 $("#SP"+ i).on("click", function(){
-    $("#ST"+ i).toggle("slide")})
+    $("#ST"+ i).toggle("slide"), 9999})
 }
 
 //Project Effect

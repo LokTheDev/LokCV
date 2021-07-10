@@ -83,8 +83,8 @@ nav a:hover{
     text-align: center;    
 }
 #myIcon:hover{
-    height: 225px;
-    width: 225px;      
+    transform: scale(1.05);   
+    filter: drop-shadow(10px 10px 5px #888);  
        
 }
 
@@ -152,7 +152,8 @@ nav a:hover{
 .skillText{
     height: 300px;
     width: 300px;
-    text-align: center;
+    text-align:left;
+    color: black;
 }
 .boxImg{
     border-radius: 50%;
@@ -160,6 +161,12 @@ nav a:hover{
     width: 250px;
 }
 
+.boxImg:hover{
+    transform: scale(1.05);
+    transition: 200ms;
+    filter: drop-shadow(10px 10px 5px #888);
+
+}
 
 
 .skillContainer2{
@@ -336,6 +343,6 @@ a > img{
 }
 
 a > img:hover{
-    transform: scale(1.5);
+    transform: scale(1.25);
 }
 
