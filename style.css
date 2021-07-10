@@ -5,6 +5,7 @@ font-family: -apple-system, BlinkMacSystemFont, sans-serif;
 body{
     margin: 0px;
     padding: 0px;
+    
 }
 
 h3{
@@ -162,9 +163,9 @@ nav a:hover{
 }
 
 .boxImg:hover{
-    transform: scale(1.05);
+    transform: scale(1.025);
     transition: 200ms;
-    filter: drop-shadow(10px 10px 5px #888);
+    filter: drop-shadow(8px 8px 5px #888);
 
 }
 
@@ -245,7 +246,7 @@ nav a:hover{
 .pBox2{
     background: linear-gradient(to right, #f0e68c,#8c96f0);
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     overflow: hidden;
     margin-right: 3000px;
     max-width: 100%;
@@ -287,7 +288,10 @@ nav a:hover{
 .pBox3{
     background: linear-gradient(to left, #b4b6c8,#8c96f0);
     display: flex;
-    justify-content:flex-end;
+    justify-content: space-between;
+    overflow: hidden;
+    margin-left: 2200px;
+    max-width: 100%;
 }
 
 
@@ -324,9 +328,53 @@ nav a:hover{
 }
 
 
+/*projectbox4 section*/
+
+.pBox4{
+    background: linear-gradient(to left, #f0e68c,#8c96f0);
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    
+}
+
+.pCotainer4{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.pTextBox4{
+   position: relative;
+  }
+
+.pTextBox4 > a{
+    text-decoration: none;
+    color: white;
+    position: relative;
+}
+
+
+.pTextBox4 > a:hover{
+    color: lightgray;
+    text-decoration: none;
+    
+    position: relative;
+}
+
+
+.pImgBox4{
+   display: flex;
+   justify-content: center;
+  
+}
+
+
 /* Footer */
 footer{
-    background-color: #b4b6c8;
+    background-color: #e6e7ed;
     padding: 50px 50px;
 }
 

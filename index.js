@@ -40,7 +40,7 @@ $("#SP"+ i).on("click", function(){
 }
 
 //Project Effect
-$(".pContainer2").slideUp();
+
 
 if (typeof window.orientation === 'undefined'){
 
@@ -51,6 +51,7 @@ $(window).scroll( function() {
     if(NEWscrolled_val >= 1550){
         scroller(NEWscrolled_val);        
         scroller2(NEWscrolled_val);
+        scroller3(NEWscrolled_val);
     }})
 scroller = (scroll) =>{
     newscroll= -scroll+2215;    
@@ -63,27 +64,34 @@ scroller = (scroll) =>{
 }
 }
 
-$("#PB1").on("mouseover", function(){
-    $(".pContainer2").slideDown(2000);
-})       
-
-
 scroller2 = (scroll) =>{
     newscroll= -scroll+3000;    
     $("#PB2").css("margin-right", newscroll+"px"); 
 }
 }
-$(".pContainer3").hide();
 
-$("#PB2").on("mouseover", function(){
-    $(".pContainer3").fadeIn(5000);
-})       
+scroller3 = (scroll) =>{
+    newscroll= -scroll+3000;    
+    $("#PB3").css("margin-left", newscroll+"px"); 
+    if(newscroll < 0){
+        $("#PB3").css("margin-left", "0px");  
 
+    }
+}
+
+
+
+
+
+
+
+
+
+/* igonore*/
 if (typeof window.orientation !== 'undefined') {
     $("#PB1").css("margin-left", "0px"); 
     $("#PB2").css("margin-right", "0px"); 
-    $(".pContainer2").slideDown(2000);
-    $(".pContainer3").fadeIn(5000);
+    $("#PB3").css("margin-left", "0px"); 
     newscroll=null
     alert("using tablet or PC to enjoy full experience!")
 }
