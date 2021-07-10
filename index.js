@@ -65,13 +65,13 @@ scroller = (scroll) =>{
 }
 
 scroller2 = (scroll) =>{
-    newscroll= -scroll+3000;    
+    newscroll= -scroll+2800;    
     $("#PB2").css("margin-right", newscroll+"px"); 
 }
 }
 
 scroller3 = (scroll) =>{
-    newscroll= -scroll+3000;    
+    newscroll= -scroll+3200;    
     $("#PB3").css("margin-left", newscroll+"px"); 
     if(newscroll < 0){
         $("#PB3").css("margin-left", "0px");  
