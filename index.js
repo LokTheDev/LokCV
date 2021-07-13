@@ -35,7 +35,7 @@ $(window).scroll( function() {
 
 for(let i = 1; i < 10;i++){
 
-$("#SP"+ i).on("click", function(){
+$("#SP"+ i).hover(function(){
     $("#ST"+ i).toggle("slide"), 9999})
 }
 

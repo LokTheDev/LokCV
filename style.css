@@ -1,10 +1,12 @@
 *{
 font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+
 }
 
 body{
     margin: 0px;
     padding: 0px;
+    background-color: black;
     
 }
 
@@ -20,7 +22,12 @@ header{
     padding: 30px 70px;
     background-color:black;
     height: 50px;       
+    position: sticky;
+    top:0px;
+    opacity: 80%;
 }
+
+
 
 #logo{
     height: 50px;
@@ -83,11 +90,6 @@ nav a:hover{
     border-radius: 50%;
     text-align: center;    
 }
-#myIcon:hover{
-    transform: scale(1.05);   
-    filter: drop-shadow(10px 10px 5px #888);  
-       
-}
 
 
 #iconText{
@@ -119,10 +121,12 @@ nav a:hover{
 
 .TBC{
     border: none;    
+    background-color: transparent;
+    color: white;
 }
 
 .TBC:hover{
-    transform: scale(1.5);
+    transform: scale(1.025);
 }
 
 /*My Skill*/
@@ -156,8 +160,8 @@ nav a:hover{
     text-align:left;
     color: black;
 }
+
 .boxImg{
-    border-radius: 50%;
     height: 250px;
     width: 250px;
 }
@@ -165,7 +169,7 @@ nav a:hover{
 .boxImg:hover{
     transform: scale(1.025);
     transition: 200ms;
-    filter: drop-shadow(8px 8px 5px #888);
+    filter: drop-shadow(8px 8px 3px #888);
 
 }
 
@@ -204,9 +208,9 @@ nav a:hover{
     max-width: 100%;
 }
 
-
 .pImgBox1{
     display: inline-block;
+  
 }
 
 
